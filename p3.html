@@ -1,36 +1,64 @@
+<!DOCTYPE html>
 <html>
 <head>
   <title>Select train</title>
   </head>
   <style>
-     .container{
-         background-color : light blue;
-      }
-      .col-lg-auto{
-        background-color : grey;
-      }
+     .row > div {
+       background-color : grey;
+       border : 2px solid black;
+       display : grid
+     }
   </style>
   <body>
       <h3>Here are some trains that travel by this route</h3>
       <div class="container">
   <div class="row">
-    <div class="col-lg-auto">
-      Train number - 1234
-      Train name - Tr4
+    <div class="col-lg-3 col-sm-6">
+      Train number
+    </div>
+    <div class="col-lg-3 col-sm-6">
+      Train name
+    </div>
+    <div class="col-lg-3 col-sm-6">
+      Timings
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-3 col-sm-6">
+      1234
+    </div>
+    <div class="col-lg-3 col-sm-6">
+      Tr4
+    </div>
+    <div class="col-lg-3 col-sm-6">
       Departure time - 18:30 Hrs
-      Arrival time - 4:45 Hrs
+      Arrival time : 4:45 Hrs
     </div>
-    <div class="col-lg-auto">
-      Train number - 1235
-      Train name - Tr5
-      Departure time - 14:30 Hrs
-      Arrival time - 0:45 Hrs
+    <div class="row">
+      <div class="col-lg-3 col-sm-6">
+        1235
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        Tr5
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        Departure time - 14:30 Hrs
+        Arrival time : 0:45 Hrs
+      </div>
     </div>
-    <div class="col-lg-auto">
-      Train number - 1236
-      Train name - Tr6
-      Departure time - 10:30 Hrs
-      Arrival time - 20:45 Hrs
+    <div class="row">
+      <div class="col-lg-3 col-sm-6">
+        1236
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        Tr6
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        Departure time - 10:30 Hrs
+        Arrival time - 8:45 Hrs
+      </div>
     </div>
   </div>
-  </div>
+</body>
+</html>
